@@ -169,6 +169,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.h1-padding {
+  padding-top: 130px;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
@@ -10676,6 +10680,7 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  height: 930px;
 }
 header.masthead:before {
   content: "";
