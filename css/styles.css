@@ -10852,3 +10852,14 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+
+
+
+/*My CSS*/
+.image-center {
+  justify-content: center;
+  width: 750px;
+  max-width: 100%;
+  margin-top: 20px;
+}
