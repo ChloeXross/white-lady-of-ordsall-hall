@@ -63,7 +63,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #000 /*#0B1215 #fff*/;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -159,6 +159,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
   font-weight: 800;
   line-height: 1.2;
+  /*color: #F8F7F4;*/
 }
 
 .unifrakturMaguntia {
@@ -212,6 +213,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #F8F7F4;
 }
 
 .h1-padding {
@@ -3698,7 +3700,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   /**--bs-navbar-hover-color: rgba(0, 0, 0, 0.7);**/
-  --bs-navbar-hover-color: #ff6a6a;
+  --bs-navbar-hover-color: #ff6a6a !important;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -3706,7 +3708,7 @@ textarea.form-control-lg {
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   /**--bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);**/
-  --bs-navbar-brand-hover-color: #ff6a6a;
+  --bs-navbar-brand-hover-color: #ff6a6a !important;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -6915,6 +6917,7 @@ textarea.form-control-lg {
 
 .border-top {
   border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  margin-top: 2rem;
 }
 
 .border-top-0 {
@@ -10819,15 +10822,15 @@ header.masthead .post-heading .meta a {
 }
 
 .post-meta > a:hover {
-  color: #ff6a6a;
+  color: #ff6a6a !important;
 }
 
 .post-preview > a {
-  color: #212529;
+  color: #F8F7F4;
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #ff6a6a;
+  color: #ff6a6a !important;
 }
 .post-preview > a > .post-title {
   font-size: 1.875rem;
@@ -10864,6 +10867,18 @@ header.masthead .post-heading .meta a {
   margin-top: 20px;
 }
 
+.in-text-btn {
+  color: #ff6a6a;
+}
+
 .in-text-btn:hover {
   color: #ff6a6a;
+}
+
+.pink:hover {
+  color: #ff6a6a;
+}
+
+.white-txt {
+  color: #F8F7F4;
 }
