@@ -10863,3 +10863,7 @@ header.masthead .post-heading .meta a {
   max-width: 100%;
   margin-top: 20px;
 }
+
+.in-text-btn:hover {
+  color: #ff6a6a;
+}
